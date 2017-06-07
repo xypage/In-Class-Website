@@ -1,0 +1,178 @@
+body {
+    margin:0px;
+}
+
+/* beginning of nav */
+.main-nav {
+    height:70px;
+    background-color:#2F2F2F;
+}
+.logo {
+    height:70px;
+}
+.links {
+    list-style:none;
+    float:right;
+    color:#F6F6F6;
+    margin:24px 10px;
+}
+.navlinks {
+    float:left;
+    margin:0px 15px;
+    font-size:20px;
+}
+.navlinks a {
+    color:#F6F6F6;
+    text-decoration:none;
+}
+.navlinks a:hover {
+    color:#F6F6F6;
+    text-decoration:none;
+}
+
+/* page titles */
+.main-title {
+    color:purple;
+}
+.home-title {
+    color:orange;
+}
+.about-title {
+    color:blue;
+}
+.contact-title {
+    color:green;
+}
+
+/* captioned gif/banner */
+.banner {
+    height:450px;
+    background-image: url("../img/xwing.gif");
+    background-size:cover;
+    background-position:center;
+}
+.header-background {
+    padding-top:225px;
+    text-align:center;
+}
+.banner-header {
+    display:inline-block;
+    background-color:rgba(0,0,0,.25);
+    color:#FFF;
+    margin:.5em;
+}
+
+/* three columns */
+.container {
+    height:500px;
+    padding:15px;
+    background-color:green;
+    max-width:1200px;
+    margin:0px auto 25px;
+}
+.column {
+    width:30%;
+    float:left;
+    border:1px solid #33001A;
+    text-align:center;
+    margin:1.5%;
+    height:460px;
+}
+.column-header {
+     color:#80021A;
+}    
+.column-image {
+    width:100%;    
+}
+.a {
+    margin-top:32.25px;
+    margin-bottom:53.25px;
+}
+.b {
+    margin-bottom:.75px;
+}
+.c {
+    margin-bottom:18px;
+}
+
+/* Contact page styles */
+.form-container {
+    width:50%;
+    margin:0 auto;
+    padding:50px 0px;
+}
+
+/* footer */
+footer {
+    margin-top:25px ;
+    height:150px;
+    border-top:1px solid #000;
+    width:100%;
+    background-color:#2F2F2F
+}
+.footer-section {
+    width:33%;
+    height:100%;
+    float:left;
+}
+.mid-footer {
+    border-right:1px solid black;
+    border-left:1px solid black;
+}
+.footer-logo {
+    height:70px;
+    margin-left:40%;
+    margin-top:40px;
+}
+.social-media {
+  height: 100%;
+  width: 150px;
+  margin:0px auto;
+}
+.section {
+  height: 50px;
+}
+.icon {
+  height: 100%;
+  width: 50px;
+  text-align:center;
+  margin-left: calc(100%/3);
+  background:radial-gradient(white, #2F2F2F, #2F2F2F);
+  border-radius:100%;
+}
+
+.icon.left {
+  float: left;
+  margin-left: 0px;
+}
+
+.icon.right {
+  float: right;
+  margin-left: 0px;
+}
+.icon .fa {
+    font-size:24px;
+    margin-top:12.5px;
+}
+.copyright {
+    width:280px;
+    margin:46.5px auto;
+}
+
+/* Personal/business information */
+.info-container {
+    width:90%;
+    height:125px;
+    background-color:#CCC;
+    margin:0 auto;
+    padding:12.5px 0;
+}
+.personal, .business {
+    height:100px;
+    width:45%;
+    border:1px solid black;
+    float:left;
+    background-color:#BFBFBF;
+    margin:12.5px 2%;
+    text-align:center;
+}
